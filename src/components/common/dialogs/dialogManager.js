@@ -2,7 +2,7 @@
  * @Author: Sule
  * @Date: 2021-04-14 15:08:10
  * @LastEditors: Sule
- * @LastEditTime: 2021-04-14 18:03:17
+ * @LastEditTime: 2021-04-16 14:28:17
  * @Description: 自定义Dialog
  */
 import store from '@/store';
@@ -10,7 +10,7 @@ import { useRouter } from "vue-router";
 
 
 let dialogList = [];
-const initZIndex = 1010;
+const initZIndex = 1599;
 
 class CDialog {
     constructor(options = {}) {
@@ -151,7 +151,7 @@ class CDialog {
         dialogList.forEach(e => {
             e.style.zIndex = initZIndex;
         })
-        dialog.style.zIndex = 1011;
+        dialog.style.zIndex = 1600;
     }
 }
 

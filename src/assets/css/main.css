@@ -630,3 +630,28 @@ ul.fm-dropdown-menu>li.disabled {
     background-color: rgba(253, 250, 250, 0.829);
     width: 20px;
  }
+.el-divider {
+    background-color: #409eff !important;
+    margin: 11px 0 !important;
+}
+.image-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: #323232;
+    background-color: #ecf5ff;
+    margin: -9px  20px;
+    border-radius: 10px;
+    line-height: 40px !important;
+    cursor: pointer;
+    color: #409eff;
+}
+
+.image-icon:hover {
+    background-color: #409eff;
+    color: #fff;
+}
+
+.full-screen:hover {
+    /* background: url("~@/assets/images/tool/button_mini_normal.png") no-repeat center center !important; */
+}

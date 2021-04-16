@@ -2,7 +2,7 @@
  * @Author: Sule
  * @Date: 2021-04-08 13:50:14
  * @LastEditors: Sule
- * @LastEditTime: 2021-04-12 16:40:39
+ * @LastEditTime: 2021-04-16 11:34:58
  * @Description: 
 -->
 <template>
@@ -30,7 +30,9 @@
       <el-table-column prop="idx" width="50" label="序号"></el-table-column>
       <el-table-column label="名称" width="180">
         <template #default="scope">
-            <span class="listName" @click="toMap" :title="scope.row.name"> {{ scope.row.name }}</span>
+          <span class="listName" @click="toMap" :title="scope.row.name">
+            {{ scope.row.name }}</span
+          >
         </template>
       </el-table-column>
       <el-table-column label="操作">
@@ -43,6 +45,7 @@
           <el-button type="primary" size="mini" class="top-btn">气泡框</el-button>
         </template>
       </el-popconfirm>
+      <el-pagination layout="prev, pager, next" :total="1000"> </el-pagination>
     </div>
   </div>
 </template>

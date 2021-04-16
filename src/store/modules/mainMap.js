@@ -2,7 +2,7 @@
  * @Author: Sule
  * @Date: 2019-12-13 09:46:59
  * @LastEditors: Sule
- * @LastEditTime: 2021-04-15 14:08:23
+ * @LastEditTime: 2021-04-15 16:24:56
  * @Description: 用于地图内部
  */
 // initial state
@@ -148,6 +148,7 @@ const mutations = {
     state.editToolsFlag = false;
     state.allRecentToolsFlag = false;
     state.miniDialogFlag = false;
+    state.leftFloatFlag = false;
   },
 }
 

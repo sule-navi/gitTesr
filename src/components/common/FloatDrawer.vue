@@ -110,7 +110,7 @@ export default {
   position: relative;
   box-shadow: 0 0 10px #93bbff;
   background-color: #fff;
-  z-index: 2001;
+  z-index: 1599;
 }
 .float-drawer > .extend-btn {
   color: #fff;

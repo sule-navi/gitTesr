@@ -2,7 +2,7 @@
  * @Author: Sule
  * @Date: 2021-04-12 13:46:09
  * @LastEditors: Sule
- * @LastEditTime: 2021-04-15 14:33:24
+ * @LastEditTime: 2021-04-16 14:29:12
  * @Description: 地图容器
 -->
 <template>
@@ -236,7 +236,7 @@ section {
   bottom: 10px;
 }
 .left_flow_panel {
-   z-index: 2111;
+   z-index: 1699;
 }
 .tipsList {
   box-shadow: 0 0 10px #93bbff;

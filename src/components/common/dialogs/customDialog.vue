@@ -2,7 +2,7 @@
  * @Author: Sule
  * @Date: 2020-03-17 17:40:24
  * @LastEditors: Sule
- * @LastEditTime: 2021-04-15 10:55:48
+ * @LastEditTime: 2021-04-15 15:38:22
  * @Description: 
  -->
 <template>
@@ -104,6 +104,7 @@ export default {
   background-color: #fff;
   box-shadow: 0 4px 20px #5c78a7;
   overflow: auto;
+  z-index: 2999;
 }
 .dialog-content {
   height: calc(100% - 53px);
